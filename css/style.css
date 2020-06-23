@@ -4,7 +4,24 @@
     box-sizing: border-box;
 }
 
+.My-bold {
+    font-weight: bold;
+}
+
+.black {
+    color: black;
+}
+
+
+.blue {
+    color: blue;
+}
+
 /* NAVBAR */
+
+#no-pd {
+    margin-bottom: 0;
+}
 
 .navbar-brand img {
     height: 100%;
@@ -19,11 +36,6 @@
     color: #006AFF;
 }
 
-.My-bold {
-    font-weight: bold;
-    /* color: black; */
-}
-
 /* SECTION WELCOME */
 
 .welcome {
@@ -31,15 +43,26 @@
     color: white;
 }
 
+.text-margin-up {
+    margin-top: 35px;
+}
+
 /* JUMBOTRON SECTION WELCOME */
 
 .jumbotron {
     background: white;
 }
-.black {
-    color: black;
+
+.-jumb  {
+    margin-top: 20px;
 }
 
-.blue {
-    color: blue;
+.line-height {
+    line-height: 1.8;
+}
+
+.logo-g{
+    height: 15px;
+    float: left;
+    margin-top: 5px;
 }
