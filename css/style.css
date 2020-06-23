@@ -4,6 +4,8 @@
     box-sizing: border-box;
 }
 
+/* NAVBAR */
+
 .navbar-brand img {
     height: 100%;
 }
@@ -19,4 +21,25 @@
 
 .My-bold {
     font-weight: bold;
+    /* color: black; */
+}
+
+/* SECTION WELCOME */
+
+.welcome {
+    background-color: #0062FF;
+    color: white;
+}
+
+/* JUMBOTRON SECTION WELCOME */
+
+.jumbotron {
+    background: white;
+}
+.black {
+    color: black;
+}
+
+.blue {
+    color: blue;
 }
