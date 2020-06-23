@@ -4,6 +4,8 @@
     box-sizing: border-box;
 }
 
+font-family: 'Roboto', sans-serif;
+
 .My-bold {
     font-weight: bold;
 }
@@ -27,8 +29,15 @@
     height: 100%;
 }
 
+.navbar-nav li a {
+    padding: 0;
+    padding-top: 15px;
+    margin-right: 10px;
+}
+
 .navbar-right button {
-    margin-top: 8px;
+    padding: 5px;;
+    margin-top: 10px;
 }
 
 .btg-Vin {
@@ -43,8 +52,16 @@
     color: white;
 }
 
+.text-margin-up .line-height {
+    color: #939eb5;
+}
+
 .text-margin-up {
     margin-top: 35px;
+}
+
+.text-margin-up .size {
+    font-size: 46px;
 }
 
 /* JUMBOTRON SECTION WELCOME */
@@ -65,4 +82,19 @@
     height: 15px;
     float: left;
     margin-top: 5px;
+}
+
+/* SECTION INNOVATIVE */
+
+.innovative {
+    background: #f3f5f9;
+}
+
+.color-grey {
+    font-size: 14px;
+    color: #939eb5
+}
+
+.logo-zone {
+
 }
