@@ -23,6 +23,13 @@ font-family: 'Roboto', sans-serif;
     color: #939eb5;
 }
 
+.white {
+    color: white;
+}
+
+.green {
+    color: green;
+}
 /* NAVBAR */
 
 #no-pd {
@@ -176,4 +183,33 @@ font-family: 'Roboto', sans-serif;
 
 .arial {
     margin-bottom: 60px;
+}
+
+/* SECTION REGIONS */
+
+.regions {
+    background-image: url('https://images.prismic.io/www-static/bb563ec9-49ef-4ceb-8468-da84f1509fcc_bg-map-solid.svg?auto=compress,format');
+    background-color: #031B4E;
+
+}
+
+.regions h2 {
+    margin-top: 40px;
+}
+
+table {
+    margin: 0 auto;
+    width: 100%
+}
+
+.up-1, .up-2 {
+    margin-bottom: 30px;
+}
+
+.white, .gray, .green {
+    padding: 5px;
+}
+
+.border-boot {
+    border-bottom: 1px solid white;
 }
