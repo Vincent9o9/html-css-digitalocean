@@ -169,3 +169,11 @@ font-family: 'Roboto', sans-serif;
 .bg-full {
     background-color: blue;
 }
+
+.features img {
+    margin-top: 30px;
+}
+
+.arial {
+    margin-bottom: 60px;
+}
