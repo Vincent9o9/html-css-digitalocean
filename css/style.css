@@ -119,16 +119,53 @@ font-family: 'Roboto', sans-serif;
     margin-right: 25px;
 }
 
-/* .provapad0 {
-    padding: 0;
-    margin: 0 auto;
-} */
+
 
 @media screen and (min-width: 768px) {
     .pad-12 a {
         display: block;
         padding: 15px 10px;
     }
+
+    .height-fix {
+        height: 300px;
+    }
+
 }
 
 /* SECTION DEVELOPERS */
+
+.developers {
+    background: #f3f5f9;
+}
+
+.developers h2 {
+    margin-top: 35px;
+}
+
+.color-spec {
+    color: #2f4198;
+    font-size: 16px;
+}
+
+.fix-h {
+    height: auto;
+    max-width: 70%;
+    margin-top: 60px;
+}
+
+.xs {
+    font-size: 16px;
+    margin-top: 30px;
+}
+
+.developers button {
+    border: 2px solid blue;
+    padding: 4px 4px;
+    border-radius: 50%;
+    margin-right: 8px;
+}
+
+.bg-full {
+    background-color: blue;
+}
