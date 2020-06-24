@@ -227,5 +227,53 @@ table {
 
 .love {
     background: #f3f5f9;
-    height: 1000px;
+}
+
+.love h2 {
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+.card {
+    background: white;
+    border-radius: 5px;
+}
+
+.card img {
+    max-width: 100%;
+    padding: 35px 0;
+}
+
+.black-h {
+    font-weight: bold;
+}
+
+.read {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.m-button button {
+    border: 2px solid blue;
+    padding: 4px 4px;
+    border-radius: 50%;
+    margin-right: 8px;
+}
+
+.m-button {
+    margin-bottom: 30px;
+}
+
+/* SECTION NOW */
+
+.now {
+    background: #0049ff;
+}
+
+.now p {
+    font-size: 23px;
+}
+
+.now .Mid {
+    margin-top: 55px;
+    margin-bottom: 35px;
 }
