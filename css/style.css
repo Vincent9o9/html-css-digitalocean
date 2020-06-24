@@ -177,6 +177,11 @@ font-family: 'Roboto', sans-serif;
     background-color: blue;
 }
 
+/* SECTION FEATURES */
+
+.features .row {
+    margin-bottom: 40px;
+}
 .features img {
     margin-top: 30px;
 }
@@ -212,4 +217,15 @@ table {
 
 .border-boot {
     border-bottom: 1px solid white;
+}
+
+.regions a {
+    float: right;
+}
+
+/* SECTION LOVE */
+
+.love {
+    background: #f3f5f9;
+    height: 1000px;
 }
