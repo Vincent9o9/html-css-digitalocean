@@ -19,6 +19,10 @@ font-family: 'Roboto', sans-serif;
     color: blue;
 }
 
+.gray {
+    color: #939eb5;
+}
+
 /* NAVBAR */
 
 #no-pd {
@@ -36,7 +40,7 @@ font-family: 'Roboto', sans-serif;
 }
 
 .navbar-right button {
-    padding: 5px;;
+    padding: 5px;
     margin-top: 10px;
 }
 
@@ -95,6 +99,36 @@ font-family: 'Roboto', sans-serif;
     color: #939eb5
 }
 
-.logo-zone {
-
+.-view {
+    padding-top: 50px;
+    padding-bottom: 25px;
 }
+
+/* SECTION SCALE */
+
+.pad-12 {
+    padding-bottom: 60px;
+}
+
+.-size-p {
+    font-size: 20px;
+    padding-bottom: 60px;
+}
+
+.pad-r {
+    margin-right: 25px;
+}
+
+/* .provapad0 {
+    padding: 0;
+    margin: 0 auto;
+} */
+
+@media screen and (min-width: 768px) {
+    .pad-12 a {
+        display: block;
+        padding: 15px 10px;
+    }
+}
+
+/* SECTION DEVELOPERS */
