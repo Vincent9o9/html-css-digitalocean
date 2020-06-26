@@ -293,15 +293,58 @@ table {
     background: #010e28;
 }
 .boo-list li {
-    color: #807b73;
+    color: #688794;
     list-style-type: none;
     line-height: 1.8;
 }
 
-
+.pad-rrow {
+    padding: 0 40px;
+}
 
 #bold-w {
     color: white;
     font-weight: bold;
     margin-top: 15px;
+}
+
+.foot-end {    
+    padding: 20px;
+    margin-top: 30px;
+}
+.boo-list i {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 24px;
+    margin-right: 18px;
+}
+.boo-list i:hover {
+    color: white;
+}
+.marg-top {
+    margin-top: 15px;
+}
+.boo-list p {
+    color: rgba(255, 255, 255, 0.5);
+    padding: 0 15px;
+    width: calc(100% - 50px);
+    padding: 0 15px;
+    width: 80%;
+    text-align: center;
+    line-height: 1;
+}
+.boo-list img, .boo-list p {
+    display: inline-block;
+}
+@media screen and (max-width: 768px) {
+    .boo-list .foot-end {
+        text-align: center;
+    }
+}
+@media screen and (min-width: 992px) {
+    .boo-list p {
+        text-align: left;
+    }
+    .marg-top {
+        text-align: right;
+    }
 }
